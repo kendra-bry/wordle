@@ -1,0 +1,26 @@
+.Key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 1vmin);
+    font-weight: 500;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+    margin: 3px;
+    height: 4em;
+    background-color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+.Key:hover {
+    background-color: rgba(0,0,0,.5);
+    border-color: rgb(0,0,0,.5);
+}
+
+.LetterKey {
+    width: 3em;
+}
+
+.BiggerKey {
+    width: 4.5em;
+}
